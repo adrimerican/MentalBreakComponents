@@ -1,0 +1,92 @@
+.forums h1{
+    text-align: center;
+    font-size: 3.5vw;
+    white-space: pre-wrap;
+}
+.topic{
+    background-color: rgb(169, 211, 198);
+    font-size: 2vw;
+    padding:1%;
+    text-align: center;
+    margin-top: 1%;
+}
+.topic:hover{
+    cursor:pointer;
+}
+.forumItem{
+    list-style: none;
+    text-align: center;
+}
+.forumItem li{
+    width: 100%;
+    padding:1%;
+    margin-top:1%;
+    background-color: rgb(176, 223, 132);
+}
+.forumItem li:hover{
+    cursor: pointer;
+}
+.forumTitle{
+    font-size: 4vw;
+    width:100%;
+}
+.forumUsername{
+    font-size: 1vw;
+}
+.forumDate{
+    font-size: 1vw;
+}
+.forumsBack{
+    padding:0.5%;
+    position: absolute;
+    border-radius: 10%;
+}
+.forums button:hover{
+    cursor: pointer;
+}
+.createpost{
+    width: 100%;
+    text-align: center;
+}
+.createpostTitle{
+    width: 100%;
+    margin-top: 1%;
+    font-size: 3vw;
+}
+.createpostInput{
+    margin-top: 1%;
+    width:50%;
+    text-align: center;
+    height:20px;
+    transition: width 1s;
+}
+.createpostInput:focus{
+    width:55%;
+}
+.createpostDesc{
+    font-size: 2vw;
+    margin-top: 2%;
+}
+.createpostContent{
+    width: 80%;
+    height: 50vh;
+}
+.createpostButton{
+    padding-left:1.5%;
+    padding-right:1.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(201, 233, 233);
+}
+#viewPost{
+    position: absolute;
+    top:5%;
+    text-align: center;
+    width:100%;
+}
+#viewTitle{
+    width:100%;
+}
+#viewContent{
+    white-space: pre-wrap;
+}
