@@ -57,7 +57,7 @@ class Forums extends Component{
       this.setState({
         forumPage:1,
         forumTitle: topicName,
-        forumItems: data
+        forumItems: data.reverse()
       })
     })
     .catch(err=>{console.log(err)})
